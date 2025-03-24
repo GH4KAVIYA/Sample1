@@ -7,4 +7,9 @@ public class Example3 {
 	public void createPomClassTest() {
 		System.out.println("Hiii");
 	}
+	
+	@Test
+	public void createExampleClassTest() {
+		System.out.println("Hello");
+	}
 }
