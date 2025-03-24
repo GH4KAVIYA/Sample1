@@ -2,9 +2,9 @@ package SampleProject_Ex;
 
 import org.testng.annotations.Test;
 
-public class Example2 {
+public class Example3 {
 	@Test
-	public void createPomClassTest1() {
+	public void createPomClassTest() {
 		System.out.println("Hiii");
 	}
 }
