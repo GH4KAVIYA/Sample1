@@ -12,5 +12,10 @@ public class Example5 {
 	public void createExampleClassTest() {
 		System.out.println("Hello");
 	}
+	
+	@Test
+	public void createSampleClassTest() {
+		System.out.println("Hello");
+	}
 
 }
