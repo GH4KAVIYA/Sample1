@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T15:57:03 IST" name="Default suite" finished-at="2025-03-24T15:57:03 IST" duration-ms="91">
+  <suite started-at="2025-04-02T17:07:40 IST" name="Suite" finished-at="2025-04-02T17:07:40 IST" duration-ms="104">
     <groups>
     </groups>
-    <test started-at="2025-03-24T15:57:03 IST" name="Default test" finished-at="2025-03-24T15:57:03 IST" duration-ms="91">
-      <class name="SampleProject_Ex.Example1">
-        <test-method signature="createPomClassTest()[pri:0, instance:SampleProject_Ex.Example1@1e802ef9]" started-at="2025-03-24T15:57:03 IST" name="createPomClassTest" finished-at="2025-03-24T15:57:03 IST" duration-ms="18" status="PASS">
+    <test started-at="2025-04-02T17:07:40 IST" name="Test" finished-at="2025-04-02T17:07:40 IST" duration-ms="104">
+      <class name="SampleProject_pack1.OrgTest">
+        <test-method signature="createOrgTest()[pri:0, instance:SampleProject_pack1.OrgTest@75329a49]" started-at="2025-04-02T17:07:40 IST" name="createOrgTest" finished-at="2025-04-02T17:07:40 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createPomClassTest -->
-      </class> <!-- SampleProject_Ex.Example1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- createOrgTest -->
+        <test-method signature="modifyOrgTest()[pri:0, instance:SampleProject_pack1.OrgTest@75329a49]" started-at="2025-04-02T17:07:40 IST" name="modifyOrgTest" finished-at="2025-04-02T17:07:40 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- SampleProject_pack1.OrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
